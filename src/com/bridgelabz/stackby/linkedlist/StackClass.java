@@ -9,9 +9,11 @@ public class StackClass {
 			super();
 			this.data = data;
 			this.nextRef=null; 
+			
 		}
 	}
 		static  class Stack {
+			public static final char[] getSize = null;
 			public static Node head;
 			public static boolean isEmpty() {
 				return head == null;             // 2 line 1 and 2 every time we need this code its fixed for stack linkedlist impl.
@@ -49,8 +51,9 @@ public class StackClass {
 		s.push(56);
 		//s.push(4);
 		while (!s.isEmpty()) {
-			System.out.print( s.peek()+" -->");
+			System.out.println( s.peek()+" -->");
 			s.pop();
+
 			
 			
 		}
